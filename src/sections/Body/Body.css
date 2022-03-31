@@ -94,8 +94,8 @@
         
     }
     .banner img {
-        width: 100px;
-        height: 100px;
+        width: 160px;
+        height: 160px;
         border-radius: 35px;
         padding: 0;
     }
@@ -103,6 +103,6 @@
         display: grid;
         column-gap: 10px;
         row-gap: 5px;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
     }
   }

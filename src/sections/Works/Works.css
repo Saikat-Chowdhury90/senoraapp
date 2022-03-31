@@ -74,22 +74,30 @@ height: 200px;
     animation: slide-right 1s ease forwards;
     
 }
+.spl{
+  display: block;
+}
+.h100px{
+  display: block;
+}
 .slide-left{
-  column-gap: 2.5px;
-  margin-left: 0.4%;
+  column-gap: 4px;
+  
+  grid-template-columns: auto auto;
 }
 .slide-right{
-  column-gap: 2.5px;
-  margin-left: 0.4%;
+  column-gap: 4px;
+ 
+  grid-template-columns: auto auto;
 }
 .slide-left img{
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
   border-radius: 20px;
 }
   .slide-right img{
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     border-radius: 20px;
     }
     .works-heading h1{

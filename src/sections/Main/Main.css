@@ -240,7 +240,7 @@ text-align: left;
 .right-img div{
     position: absolute;
     right: -2.6%;
-    top: 0%;
+    top: 2%;
    
     transform: translate3d(650px,0,0);
     animation: slide-right 1s ease forwards;
@@ -272,3 +272,42 @@ text-align: left;
 }
 
 
+@media screen and (width : 412px){
+    .right-img div{
+        position: absolute;
+        right: -1%;
+        top: 15%;
+       
+        transform: translate3d(650px,0,0);
+        animation: slide-right 1s ease forwards;
+      
+    }
+    .right-img img{
+        position: absolute;
+        height: 160px;
+        width: 160px;
+        right: 0px;
+       
+        border-radius: 30px;
+    }
+    .main-img img{
+        width: 250px;
+        height: 350px;
+        left: 20%;
+    }
+}
+@media screen and (width : 390px){
+.right-img div{
+    top: 10%;
+    right: -2.3%;
+    
+}
+.right-img img{
+    width: 160px;
+    height: 160px;
+}
+.main-img img{
+    width: 200px;
+    height: 300px;
+}
+}
