@@ -26,12 +26,30 @@ const Body = () => {
 
                 </div>  
                 <div className="banner">
+                    <div className="grid-item">
+
                         <img src={require("../../images/girlhead.jpg")} alt="girl" />
+                    </div>
+                    <div className="grid-item">
+
                         <img src={require("../../images/couple.jpg")} alt="couple" />
+                    </div>
+                    <div className="grid-item">
+
                         <img src={require("../../images/hill.jpg")} alt="hill" />
+                    </div>
+                    <div className="grid-item">
+
                         <img src={require("../../images/flower.jpg")} alt="flower" />
+                    </div>
+                    <div className="grid-item">
+
                         <img src={require("../../images/target.jpg")} alt="target" />
+                    </div>
+                    <div className="grid-item">
+
                         <img src={require("../../images/cardboard.jpg")} alt="cardboard" />
+                    </div>
                 </div>  
             </div>    
 

@@ -118,6 +118,15 @@ const Posts = () => {
                   </p>
                 </div>
               </div>
+              <div className="card">
+                <img src="https://picsum.photos/id/404/367/267" alt="lorem" />
+                <h3>Lorem ipsum</h3>
+                <div className="focus-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="para">

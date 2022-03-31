@@ -239,7 +239,7 @@ text-align: left;
 }
 .right-img div{
     position: absolute;
-    right: -3%;
+    right: -2.6%;
     top: 0%;
    
     transform: translate3d(650px,0,0);
@@ -249,18 +249,18 @@ text-align: left;
 
 .right-img img{
     position: absolute;
-    height: 150px;
+    height: 140px;
     width: 140px;
-    right: 0;
+    right: 0px;
    
     border-radius: 30px;
 }
 .dog{
-    top: 250px;
+    top: 256px;
     right: 15px !important;
 }
 .couple{
-    top: 510px;
+    top: 500px;
     right: 240px !important;
     z-index: 1;
 }
