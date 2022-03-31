@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Works.css";
 const Works = () => {
   return (
@@ -10,40 +11,40 @@ const Works = () => {
           </div>
           <div className="slide-left">
             <div className="grid-item">
-              <img src={require("../../images/clock.jpg")} alt="clock" />
+              <img effect="blur" src={require("../../images/clock.jpg")} alt="clock" />
             </div>
             <div className="grid-item spl">
-              <img
+              <img effect="blur"
                 className="h100px"
                 src="https://iso.500px.com/wp-content/uploads/2019/11/Man-doing-postproduction-of-his-photos-on-laptop-at-night-By-Carina-Konig-1500x1000.jpg"
                 alt="hello"
               />
             </div>
             <div className="grid-item">
-              <img src={require("../../images/lemon.jpg")} alt="lemon" />
+              <img  src={require("../../images/lemon.jpg")} alt="lemon" />
             </div>
 
             <div className="grid-item">
-              <img src={require("../../images/holi.jpg")} alt="holi" />
+              <img  src={require("../../images/holi.jpg")} alt="holi" />
             </div>
           </div>
           <div className="slide-right">
             <div className="grid-item">
-              <img src={require("../../images/clock.jpg")} alt="clock" />
+              <img  src={require("../../images/clock.jpg")} alt="clock" />
             </div>
             <div className="grid-item spl">
-              <img
+              <img 
                 className="h100px"
                 src="https://iso.500px.com/wp-content/uploads/2019/11/Man-doing-postproduction-of-his-photos-on-laptop-at-night-By-Carina-Konig-1500x1000.jpg"
                 alt="hello"
               />
             </div>
             <div className="grid-item">
-              <img src={require("../../images/lemon.jpg")} alt="lemon" />
+              <img  src={require("../../images/lemon.jpg")} alt="lemon" />
             </div>
 
             <div className="grid-item">
-              <img src={require("../../images/holi.jpg")} alt="holi" />
+              <img  src={require("../../images/holi.jpg")} alt="holi" />
             </div>
           </div>
         </div>

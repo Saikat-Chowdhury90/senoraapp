@@ -81,12 +81,12 @@ height: 200px;
   display: block;
 }
 .slide-left{
-  column-gap: 4px;
+  column-gap: 15px;
   
   grid-template-columns: auto auto;
 }
 .slide-right{
-  column-gap: 4px;
+  column-gap: 15px;
  
   grid-template-columns: auto auto;
 }
